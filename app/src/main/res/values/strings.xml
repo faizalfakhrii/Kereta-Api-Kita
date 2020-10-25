@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kereta Api Kita</string>
+    <string name="nama_kereta">Nama Kereta</string>
+    <string name="detail_kereta">Detail Kereta</string>
+    <string name="nama">Faizal Fakhri Irfani</string>
+    <string name="email">faizal.irfani@students.amikom.ac.id</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="deskripsi_kereta">Deskripsi Kereta</string>
+    <string name="tarif_kereta">Tarif Kereta</string>
+</resources>

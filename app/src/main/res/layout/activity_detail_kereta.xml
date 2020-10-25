@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKeretaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <ImageView
+            android:layout_width="@dimen/w_image"
+            android:layout_height="@dimen/h_image"
+            android:layout_gravity="center"
+            android:id="@+id/foto_kereta"
+            android:layout_marginBottom="@dimen/item_margin"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/h_size"
+            android:textStyle="bold"
+            android:text="@string/deskripsi_kereta"
+            android:layout_marginTop="@dimen/item_margin"
+            android:layout_marginBottom="@dimen/item_margin"
+            />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_kereta"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/h_size"
+            android:textStyle="bold"
+            android:text="@string/tarif_kereta"
+            android:layout_marginTop="@dimen/item_margin"
+            android:layout_marginBottom="@dimen/item_margin"
+            />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tarif_kereta"
+            android:textSize="@dimen/text_size"
+            />
+
+    </LinearLayout>
+</ScrollView>

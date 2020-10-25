@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/layout_padding_2"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:id="@+id/foto_kereta"
+        android:layout_marginEnd="@dimen/item_margin_4"
+        android:layout_marginRight="@dimen/item_margin_4"
+        tools:src="@android:color/darker_gray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/foto_kereta"
+        android:layout_toRightOf="@+id/foto_kereta"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nama_kereta"
+            android:layout_marginBottom="@dimen/item_margin_2"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            tools:text="@string/nama_kereta" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_kereta"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/detail_kereta" />
+
+    </LinearLayout>
+
+</RelativeLayout>
